@@ -34,6 +34,7 @@ let routers = createBrowserRouter([
     {path:'login', element: <InverseProtectedRoute><Login/></InverseProtectedRoute>},
     {path:'register', element: <InverseProtectedRoute><Register/></InverseProtectedRoute>},
     {index:true, element: <ProtectedRoute><Home/></ProtectedRoute>},
+    {path:"Game-Over-App", element: <ProtectedRoute><Home/></ProtectedRoute>},
     {path:'all', element: <ProtectedRoute><All/></ProtectedRoute>},
     {path:'Platforms/browser', element: <ProtectedRoute><Browser/></ProtectedRoute>},
     {path:'Platforms/pc', element: <ProtectedRoute><Pc/></ProtectedRoute>},
